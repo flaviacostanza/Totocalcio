@@ -34,5 +34,7 @@ public class Pronostico {
 		sb.deleteCharAt(sb.length()-1) ;
 		return sb.toString() ;
 	}
-
+	public int getN() {
+		return this.N;
+	}
 }
